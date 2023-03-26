@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-import { fetchPlanetData } from "./api";
+// import { fetchPlanetData } from "./api";
 import earthImage from "../assets/2k_earth_daymap.jpeg";
 import marsImage from "../assets/2k_mars.jpeg";
 
@@ -13,8 +13,8 @@ document.body.appendChild(renderer.domElement);
 const controls = new OrbitControls(camera, renderer.domElement);
 camera.position.z = 5;
 
-const earthDataPromise = fetchPlanetData("earth");
-const marsDataPromise = fetchPlanetData("mars");
+// const earthDataPromise = fetchPlanetData("earth");
+// const marsDataPromise = fetchPlanetData("mars");
 
 // Promise.all([earthDataPromise, marsDataPromise]).then(([earthData, marsData]) => {
   const earthTexture = new THREE.TextureLoader().load(earthImage);
