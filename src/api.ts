@@ -7,8 +7,8 @@ export interface PlanetData {
 
 export async function fetchPlanetData(planetName: PlanetName): Promise<PlanetData> {
   const planetImages = {
-    earth: "/src/assets/2k_earth_daymap.jpeg",
-    mars: "/src/assets/2k_mars.jpeg",
+    earth: "./assets/2k_earth_daymap.jpeg",
+    mars: "./assets/2k_mars.jpeg",
   };
 
   return {
