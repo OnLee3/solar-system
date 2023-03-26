@@ -31,6 +31,7 @@ Promise.all([earthDataPromise, marsDataPromise]).then(([earthData, marsData]) =>
 
 const animate = () => {
   requestAnimationFrame(animate);
+  controls.update();
   renderer.render(scene, camera);
 };
 
