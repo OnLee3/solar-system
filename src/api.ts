@@ -1,18 +1,20 @@
-type PlanetName = "earth" | "mars";
+type PlanetName = 'earth' | 'mars';
 
 export interface PlanetData {
-  name: PlanetName;
-  image: string;
+    name: PlanetName;
+    image: string;
 }
 
-export async function fetchPlanetData(planetName: PlanetName): Promise<PlanetData> {
-  const planetImages = {
-    earth: "../assets/2k_earth_daymap.jpeg",
-    mars: "../assets/2k_mars.jpeg",
-  };
+export async function fetchPlanetData(
+    planetName: PlanetName
+): Promise<PlanetData> {
+    const planetImages = {
+        earth: '../assets/2k_earth_daymap.jpeg',
+        mars: '../assets/2k_mars.jpeg',
+    };
 
-  return {
-    name: planetName,
-    image: planetImages[planetName],
-  };
+    return {
+        name: planetName,
+        image: planetImages[planetName],
+    };
 }

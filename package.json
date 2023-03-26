@@ -1,26 +1,26 @@
 {
-  "name": "solar-system",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@types/three": "^0.149.0",
-    "@typescript-eslint/eslint-plugin": "^5.56.0",
-    "eslint": "^8.36.0",
-    "eslint-config-standard-with-typescript": "^34.0.1",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "prettier": "^2.8.7",
-    "typescript": "^5.0.2",
-    "vite": "^4.2.0"
-  },
-  "dependencies": {
-    "three": "^0.150.1"
-  }
+    "name": "solar-system",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@types/three": "^0.149.0",
+        "@typescript-eslint/eslint-plugin": "^5.56.0",
+        "eslint": "^8.36.0",
+        "eslint-config-standard-with-typescript": "^34.0.1",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.6.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "prettier": "^2.8.7",
+        "typescript": "^5.0.2",
+        "vite": "^4.2.0"
+    },
+    "dependencies": {
+        "three": "^0.150.1"
+    }
 }
